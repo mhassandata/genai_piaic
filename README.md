@@ -11,7 +11,6 @@ These are the basic questions about Typescript and Node.js for the beginers.
 
 5. Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
 
-6. Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
 
-
+6. Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
 
