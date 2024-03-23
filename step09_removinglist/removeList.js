@@ -9,3 +9,4 @@ MyGuestList.push('Imran');
 for (const guest of MyGuestList) {
     console.log(`Dear ${guest}, I would be honored if you could join me for dinner.`);
 }
+console.log("Khan is not came to the ceremony");
