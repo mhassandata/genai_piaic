@@ -13,3 +13,5 @@ for (const guest of MyGuestList) {
 }
 
 console.log("Khan is not came to the ceremony")
+
+// console.log(typeof MyGuestList)
