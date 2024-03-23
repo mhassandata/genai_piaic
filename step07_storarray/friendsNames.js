@@ -1,4 +1,3 @@
-"use strict";
 const names = ['Hassan', 'Zahid', 'Asad', 'Eid'];
 for (const name of names) {
     console.log(name);
@@ -15,3 +14,4 @@ const favoriteVehicales = ['Tesla Model S', 'Audi R8', 'Porsche 911', 'Ford Must
 for (const car of favoriteVehicales) {
     console.log(`I would like to own a ${car}`);
 }
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 let string_message = "A person who never made a mistake never tried anything new.";
 let author_name = "Albert Einstein";
 console.log(author_name + " once said " + string_message);
@@ -9,3 +8,4 @@ console.log(author_name + " once said " + string_message);
 let famous_person = 'Steve Jobs';
 let message1 = `${famous_person} once said, "Everyone in this country should learn how to program because it teaches you how to think."`;
 console.log(message1);
+export {};

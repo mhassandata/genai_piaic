@@ -1,4 +1,3 @@
-"use strict";
 // Initial guest list for dinner
 let MyGuestList = ['Shah', 'Suraj', 'Khan'];
 // Removing the guest who can't make it
@@ -10,4 +9,5 @@ for (const guest of MyGuestList) {
     console.log(`Dear ${guest}, I would be honored if you could join me for dinner.`);
 }
 console.log("Khan is not came to the ceremony");
+export {};
 // console.log(typeof MyGuestList)

@@ -1,4 +1,3 @@
-"use strict";
 // #Simple way
 // You should create four lines that look like this:
 console.log(5 + 3); // Addition: 8
@@ -32,3 +31,12 @@ else if (num > numn2) {
 else {
     console.log("Num is equal ");
 }
+let number1 = 10;
+let number2 = '10';
+export {};
+// if (number1==number2){
+//     console.log("Both numbers are equals")
+// }
+// if (number1==number2){ //it will be false
+//     console.log("Both numbers are equals")
+// }
