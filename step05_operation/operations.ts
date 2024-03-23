@@ -30,3 +30,32 @@ console.log(num1 + num2 + num3)
 
 console.log(num1 * num2 * num3)
  console.log(num3 / num1)
+
+
+
+// ------------------------Operators-------------------
+
+let num = 10;
+let numn2 = 10;
+
+if(num < numn2){
+    console.log("num is less than numn2")
+}
+else if(num>numn2){
+    console.log("Num is not less than numn2")
+}
+else{
+    console.log("Num is equal ")
+}
+
+
+let number1 = 10;
+let number2 = '10';
+
+// if (number1==number2){
+//     console.log("Both numbers are equals")
+// }
+
+// if (number1==number2){ //it will be false
+//     console.log("Both numbers are equals")
+// }
