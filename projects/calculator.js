@@ -1,9 +1,13 @@
 import inquirer from "inquirer";
 let name = await inquirer.prompt([
     {
-        name: "name",
-        message1: "Enter your name: ",
-        type: "type"
-    }
+        name: "number",
+        message1: "Enter first number: ",
+        type: "number"
+    },
+    {
+        name: "number",
+        message1: "Enter second number: ",
+        type: "number"
+    },
 ]);
-console.log("Your name is " + name.name);
