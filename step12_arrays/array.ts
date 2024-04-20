@@ -10,3 +10,15 @@ console.log(numberArray[0])
 numberArray.pop()
 
 numberArray.push(100)
+
+
+let stringAarray : string[] = ['Hassan','Asad', "eid"]
+
+stringAarray.unshift()
+let firstName =  stringAarray.shift()  //shift to next index (to more clear read the ppt)
+console.log(firstName)
+
+
+
+//splice method adds new items to an array
+//slice cut the element on given conditions
