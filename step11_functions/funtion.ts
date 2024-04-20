@@ -33,6 +33,6 @@ getFullTime2(2) //funciton calling
 
 
 
-let fullTime3 =() => 30 //expression
+// let fullTime3 =() => 30 //expression
 
-let fullTime4 =() => a + b;
+// let fullTime4 =() => a + b;

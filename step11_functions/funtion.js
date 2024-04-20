@@ -12,4 +12,17 @@ function getFullTime(hours, minutes) {
     }
     return `${hours}:${minutes}`;
 }
+//arow funciton
+let getFullTime2 = (hours, minutes) => {
+    if (!hours) {
+        return `00:${minutes}`;
+    }
+    if (!minutes) {
+        return `${hours}:00`;
+    }
+    return `${hours}:${minutes}`;
+};
+getFullTime2(2); //funciton calling
 export {};
+// let fullTime3 =() => 30 //expression
+// let fullTime4 =() => a + b;
