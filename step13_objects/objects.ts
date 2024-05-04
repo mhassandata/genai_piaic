@@ -70,7 +70,7 @@ ball1 = tube1 //both are equal becuase ball1 has diameter which is also in tube1
 
 
 /// Duck typing
-let myType = {name: "Hassan", id: 1}; // duck typing
+let myType1 = {name: "Hassan", id: 1}; // duck typing
 
 //anonymous typing
 let myType:{name:string, id:number, age?:number} = {name:'hassan', id: 011, age:28}
@@ -89,3 +89,20 @@ let myType2: MyType = {
     name: "Hassan",
     age: 29
 }
+
+
+var x: {id: number, [x:string]: any}
+
+x = {id:1, name: "Hassan"}  //no error beacuse of any
+
+x={id:10, name_person:"Hassan"}
+
+x={id:22, age:20}
+
+//==============================================================================================/////////
+
+
+
+
+
+
