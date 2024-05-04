@@ -1,12 +1,10 @@
-// let person = "Hassan"
-let person = {
-    name: "Hassan",
-    age: 29,
-    adress: {
-        street: "F8 65",
-        city: "Islamabad",
-        country: "Pakistan"
-    }
+// // let person = "Hassan"
+let ball1 = {
+    diameter: 10
 };
-console.log(person['name']);
+let sphere1 = {
+    diameter: 20
+};
+ball1 = sphere1;
+sphere1 = ball1;
 export {};
