@@ -57,7 +57,7 @@ interface Tube {
     diameter: number,
     length: number;
 }
-let tube1 Tube ={
+let tube1: Tube = {
     diameter: 10,
     length: 20
 }
@@ -65,5 +65,5 @@ let tube1 Tube ={
 ball1 = sphere1
 sphere1 = ball1
 
-tube1 = ball1   //not equal
+tube1 = ball1   //not equal  because tube1 has diameter and length but ball1 has only diameter
 ball1 = tube1 //both are equal
